@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    background: #f5f7f7;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .profileSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
+  
+  .name {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .description {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .icon {
+    font-size: 22px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .iconButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #888;
+    transition: color 0.2s ease;
+  }
+  
+  .icon:hover {
+    color: #ff4d4f;
+  }
+  
+  
