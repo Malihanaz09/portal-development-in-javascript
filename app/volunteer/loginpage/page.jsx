@@ -28,7 +28,7 @@ const Login = () => {
       return;
     }
 
-    router.push('/pages');
+    router.push('/volunteer/dashboard');
   };
 
   return (
